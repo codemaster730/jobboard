@@ -7,11 +7,11 @@
 
 
 <h1 align="center">
-  Open source job board
+  jobboard job board
 </h1>
 
 <br/>
-  jobboard is an open source jobboard created by CodeChef7.ai to allow developers to build easily AI powered job listing platforms and job matching applications.
+  jobboard is an jobboard jobboard created by CodeChef7.ai to allow developers to build easily AI powered job listing platforms and job matching applications.
 <br/>
 
 ## About CodeChef7.ai
@@ -73,7 +73,7 @@
     GOOGLE_API_KEY=Your google api key (used for places searching)
   ```
 
-  4.  **Open the source code and start editing!**
+  4.  **jobboard code and start editing!**
 
     Your site is now running at `http://localhost:8000`!
 
