@@ -1,0 +1,46 @@
+
+.section {
+    background: #bfe9ff;
+    padding: 3.5rem 20%;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 70rem;
+    margin: auto;
+    margin-top: 2.2rem;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img {
+    width: 15rem;
+    height: auto;
+}
+
+
+@media (max-width: 1224px) {
+    .section {
+        padding: 2rem 1rem;
+    }
+
+    .content {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img {
+       margin-top: 2rem;
+    }
+
+    .img:first-of-type {
+        margin-top: 0;
+    }
+}

@@ -1,0 +1,17 @@
+$primary: #00AAFF; // imp text
+$downriver: #0A2540; // for backgrounds
+$downriverLight: #32325d;
+$sherapaBlue: #00495D; // for texts
+$java: #23D2B5;
+$lighterGreen: #EEEEEE;
+
+
+@mixin flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin flex-row {
+    display: flex;
+    flex-direction: row;
+} 

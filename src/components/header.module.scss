@@ -1,0 +1,60 @@
+@import "../styles/helpers.scss";
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+.navbar {
+    border-bottom: 1px solid $lighterGreen;
+    margin: auto;
+    padding-top: 0.7rem;
+    padding-bottom: 0.5rem;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,.08), 0 4px 12px rgba(0,0,0,.08);
+    z-index: 99;
+    width: 100%;
+}
+
+.logo {
+    width: 8rem;
+    height: auto;
+}
+
+.jambotron {
+    background: linear-gradient(142.28deg, $primary 0.89%, $java 94.05%);
+    min-height: 15rem;
+    display: flex;
+}
+
+.jambotron__heading {
+    flex: 1 1 100%;
+    padding: 4.3rem 10.3rem;
+}
+
+// .jambotron__img {
+//     background: url('../assets/images/image_desktop.png');
+//     background-position: center;
+//     background-size: cover;
+//     background-repeat: no-repeat;
+//     color: white;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: flex-start;
+//     position: relative;
+//     flex: 1 30%;
+// }
+
+@media (max-width: 1300px) {
+    .jambotron {
+        background-position: 0;
+    }
+    .jambotron__heading {
+        padding: 3rem;
+    }
+
+    .jambotron__img {
+       background-size: 10rem;
+    }
+}
