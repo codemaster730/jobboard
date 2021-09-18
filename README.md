@@ -7,11 +7,11 @@
 
 
 <h1 align="center">
-  jobboard job board
+  job board
 </h1>
 
 <br/>
-  jobboard is an jobboard jobboard created by CodeChef7.ai to allow developers to build easily AI powered job listing platforms and job matching applications.
+  jobboard is an  created by CodeChef7.ai to allow developers to build easily AI powered job listing platforms and job matching applications.
 <br/>
 
 ## About CodeChef7.ai
